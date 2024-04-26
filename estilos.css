@@ -6,7 +6,7 @@ body {
 }
 
 .header__container {
-    background-image: url("/img/02.jpg");
+    background-image: url("img/02.jpg");
     background-size: cover;
     color: #fff;
     padding: 20px 0;
