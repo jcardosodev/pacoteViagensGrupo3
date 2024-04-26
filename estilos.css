@@ -1,20 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0;
+   
 }
 
-header {
-    background-color: #5e5d5d;
+
+.header__container {
+    background-image: url("/img/02.jpg");
+    background-size: cover;
     color: #fff;
     padding: 20px 0;
     text-align: center;
+
+    padding: 0 152px;
+   
 }
 
-.pacote-container {
-    display: flex;
+.header__title{
+  font-family: "Pacifico", cursive;
+  color:  #0d6efd;
 }
+.header__subtitle{
+   color: #0d6efd;
+}
+.header_info{
+    display: flex;
+    flex-direction: column;
+    height:400px ;
+   justify-content: center;
+}
+
+.nav__container{
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
 
 .pacote {
     background-color: #fff;
@@ -54,4 +76,9 @@ header {
 
 .botao:hover {
     background-color: #6c5454;
+}
+
+.nav__itens{
+    list-style: none;
+    text-decoration: none;
 }
