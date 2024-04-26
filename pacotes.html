@@ -13,62 +13,94 @@
 <body>
     <header class="header__container">
         <nav class="nav__container navbar d-flex align-items-center">
-            <img src="/img/Logo2.png" alt="" class="nav__img" width="40" height="auto"">
-            <ul class=" nav__links d-flex gap-3 ">
-            <li class=" nav__itens"><a href="" class="text-decoration-none">Pacotes</a>
-            </li>
-            <li class="nav__itens "><a href="" class="text-decoration-none">Hotéis</a></li>
-            <li class="nav__itens "><a href="" class="text-decoration-none">Voos</a></li>
-            <li class="nav__itens "><a href="" class="text-decoration-none">Reservas</a></li>
-            <li class="nav__itens "><a href="" class="text-decoration-none">Destinos</a></li>
+            <ul class=" nav__links d-flex gap-5 ">
+                <li class=" nav__itens"><a href="" class="text-decoration-none">Pacotes</a>
+                </li>
+                <li class="nav__itens "><a href="" class="text-decoration-none">Hotéis</a>
+                </li>
+                <li class="nav__itens "><a href="" class="text-decoration-none">Voos</a>
+                </li>
+                <li class="nav__itens "><a href="" class="text-decoration-none">Reservas</a>
+                </li>
+                <li class="nav__itens "><a href="" class="text-decoration-none">Destinos</a>
+                </li>
             </ul>
-            <div class="nav__login">
+            <div class="nav__login d-flex gap-5">
                 <button class="btn btn-light">Cadastra-se</button>
                 <button class="btn btn-light">Login</button>
             </div>
         </nav>
-        <section class="header_info">
+        <section class="header_info d-flex flex-column justify-content-center">
             <h1 class="header__title">Ur Trip</h1>
         </section>
     </header>
 
     <main>
-        <section class="pacote-container d-flex  justify-conten-between ">
-            <section class="pacote">
+        <section class="pacote-container">
+            <div class="pacote">
                 <img src="img/fortaleza.jpg" alt="Fortaleza">
-                <h2>Fortaleza</h2>
-                <p>
-                    Desfrute de uma experiência completa com nosso pacote!
-                </p>
-                <p>Valores à partir de: R$1.598 por pessoa. </p>
-                <a href="fortaleza.html" class="botao">Saiba Mais</a>
-            </section>
+                <div class="pacote__info d-flex flex-column gap-3 p-4">
+                    <h2>Fortaleza</h2>
+                    <p>Desfrute de uma experiência completa com nosso pacote!</p>
+                    <p>Valores à partir de: <b> R$1.598</b> por pessoa. </p>
+                    <a href="fortaleza.html" class="botao">Reserve já</a>
+                </div>
+            </div>
 
-            <section class="pacote">
+            <div class="pacote">
                 <img src="img/gramado.jpg" alt="Destino 2">
-                <h2>Gramado</h2>
-                <p>Descubra as maravilhas de Gramado com conforto</p>
-                <p>Preço: R$ 1500</p>
-                <a href="gramado.html" class="botao">Saiba Mais</a>
-            </section>
+                <div class="pacote__info d-flex flex-column gap-3 p-4">
+                    <h2>Gramado</h2>
+                    <p>Descubra as maravilhas de Gramado com conforto</p>
+                    <p>Valores à partir de: <b>R$ 1500</b> por pessoa.</p>
+                    <a href="gramado.html" class="botao">Reserve já</a>
+                </div>
+            </div>
 
-            <section class="pacote">
+            <div class="pacote">
                 <img src="img/curitiba.jpg" alt="Destino 3">
-                <h2>Curitiba</h2>
-                <p>Descrição: Descubra a rica história, a arquitetura impressionante e a culinária diversificada de Curitiba.</p>
-                <p>Preço: R$ 1200</p>
-                <a href="curitiba.html" class="botao">Saiba Mais</a>
-            </section>
-            <section class="pacote">
-                <img src="img/salvador.jpg" alt="Destino 4">
-                <h2>Salvador</h2>
-                <p>Explore a vibrante cidade de Salvador, onde a história, cultura e beleza natural se entrelaçam para criar uma experiência única.</p>
-                <p>Valores à partir de: R$1.299 por pessoa</p>
-                <a href="salvador.html" class="botao">Saiba Mais</a>
-            </section>
-        </section>
+                <div class="pacote__info d-flex flex-column gap-3 p-4">
+                    <h2>Curitiba</h2>
+                    <p>Descubra a história e a culinária diversificada de Curitiba.</p>
+                    <p>Valores à partir de: <b>R$ 1200</b> por pessoa.</p>
+                    <a href="curitiba.html" class="botao">Reserve já</a>
+                </div>
+            </div>
 
+            <div class="pacote">
+                <img src="img/salvador.jpg" alt="Destino 4">
+                <div class="pacote__info d-flex flex-column gap-3 p-4">
+                    <h2>Salvador</h2>
+                    <p>Explore a vibrante cidade de Salvador, onde a história, cultura se entrelaçam.</p>
+                    <p>Valores à partir de: <b> R$1.299 </b> por pessoa</p>
+                    <a href="salvador.html" class="botao">Reserve já</a>
+                </div>
+            </div>
+
+            <div class="pacote">
+                <img src="img//bonito.jfif" alt="Bonito">
+                <div class="pacote__info d-flex flex-column gap-3 p-4">
+                    <h2>Bonito</h2>
+                    <p>Descubra o Paraíso Natural do Brasil em 5 Dias.</p>
+                    <p>Valores à partir de: <b>R$2.798</b> por pessoa. </p>
+                    <a href="bonito.html" class="botao">Reserve já</a>
+                </div>
+            </div>
+
+            <div class="pacote">
+                <img src="img/Lençois Maranhenses.jpg" alt="Destino 2">
+                <div class="pacote__info d-flex flex-column gap-3 p-4">
+                    <h2 class="fs-3">Lençois Maranhenses</h2>
+                    <p>Descubra a Magia das Dunas e Lagoas Maranhenses.</p>
+                    <p>Valores à partir de: <b>R$3.120</b> por pessoa.</p>
+                    <a href="lençois.html" class="botao">Reserve já</a>
+                </div>
+            </div>
+        </section>
     </main>
+    <footer class="footer p-4 ">
+        <p>Desenvolvido pelo Grupo 3</p>
+    </footer>
 </body>
 
 </html>

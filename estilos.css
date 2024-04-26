@@ -1,11 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 
-
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
    
 }
-
 
 .header__container {
     background-image: url("/img/02.jpg");
@@ -13,9 +11,7 @@ body {
     color: #fff;
     padding: 20px 0;
     text-align: center;
-
-    padding: 0 152px;
-   
+    padding: 0 152px;   
 }
 
 .header__title{
@@ -26,10 +22,7 @@ body {
    color: #0d6efd;
 }
 .header_info{
-    display: flex;
-    flex-direction: column;
     height:400px ;
-   justify-content: center;
 }
 
 .nav__container{
@@ -37,20 +30,24 @@ body {
   font-weight: 600;
 }
 
-
-.pacote {
-    background-color: #fff;
+.pacote{
+    width: 350px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin: 20px;
-    padding: 10px;
-    width: 350px;
+}
+
+.pacote-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap:2.5rem;
+    padding: 20px 152px;
 }
 
 .pacote img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
+    border-radius: 5px;
+    width: 350px;
+    max-height: 170px;
 }
 
 .pacote h2 {
@@ -67,13 +64,13 @@ body {
 
 .botao {
     display: inline-block;
-    background-color: #5e5d5d;
+    background-color: #0d6efd;
     color: #fff;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 5px;
+    width: 40%;
 }
-
 .botao:hover {
     background-color: #6c5454;
 }
@@ -81,4 +78,14 @@ body {
 .nav__itens{
     list-style: none;
     text-decoration: none;
+}
+
+.footer{
+    background-color: #0d6efd;
+    color: #ffffff;
+    text-align: center;
+}
+
+.footer p{
+    margin-bottom: 0;
 }
