@@ -89,3 +89,71 @@ body {
 .footer p{
     margin-bottom: 0;
 }
+
+header img {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    border: 5px solid rgb(177, 191, 221);
+    float: right;
+    margin-right: 20px;
+}
+
+.titulo{
+    font-family: "Pacifico", cursive;
+    padding: 0px 50px;
+    text-align: center;
+    margin: 20px;
+}
+
+.color{
+    background-color: rgb(177, 191, 221);
+}
+
+.pac {
+    width: 350px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-left: 20px;
+    border: 5px solid #6c5454;
+    margin-top: 20px;
+}
+
+.pac2 {
+    
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-left: 20px;
+    border: 5px solid #6c5454;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+}
+
+.pac3 {
+    
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    margin-left: 20px;
+    border: 5px solid #6c5454;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 20px;
+    width: 40%;
+}
+
+.reservar {
+   width: 35%;
+   margin-left: 20px;
+   margin-top: 20px;
+
+}
+
+.margem {
+    margin-left: 20px;
+    
+}
